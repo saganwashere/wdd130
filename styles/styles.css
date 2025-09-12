@@ -19,9 +19,34 @@ aside img{
 
 }
 
+nav{
+background-color: #040024;
+padding: 10px 10px;
+}
+
+nav a{
+color:#ba88fa;
+padding: 1px 1px;
+display: contents;
+text-decoration:none;
+}
+
 main img{
     width: 150px;
     height: auto;
+}
+
+h1{
+color:#040024;
+font-size: 2em;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 1.5px solid #ccc;
+    padding: 5px;
+    box-shadow: 2px rgba(0,0,0,0.3);
 }
 
 p { padding: 0; }
