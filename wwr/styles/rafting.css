@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #07772c;
+    --accent1-color: #020f3b;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1, h2{
+    font-family: var(--heading-font);
+    padding: 8px;
+}
+
+nav, p, section, article{
+    margin: 16px;
+    padding: 8px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: var(--secondary-color)
+}
+
+.socialmedia{
+    text-decoration: none;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+h1{
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+    padding: 16;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    color: white;
+    font-size: 2.4rem;
+    border-radius: 100px;
+}
+
+.hero article img{
+    position: static;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero article{
+    position: absolute;
+    bottom: 40px;
+    left: 450px;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+section {
+    background-color: var(--accent1-color);
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia a img {
+    width: 30px;
+    height: auto;
+    display: inline-block;
+}
