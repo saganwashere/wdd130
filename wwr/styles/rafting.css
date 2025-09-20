@@ -82,7 +82,7 @@ h1{
 }
 
 .hero article img{
-    position: static;
+    float: left;
     width: 200px;
     height: auto;
     border-radius: 8px;
